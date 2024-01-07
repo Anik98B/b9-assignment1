@@ -1,0 +1,38 @@
+
+/* <!-- banner section --> */
+.banner {
+    margin: auto;
+    background: url('../resources/Banner\ Image.png');
+    text-align: center;
+    width: 1320px;
+    height: 600px;
+}
+
+.banner-text {
+    text-align: center;
+    height: 600px;
+    margin: auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #090909cd 0%, rgba(17, 15, 22, 0.551) 100%);
+    
+    font-style: normal;
+    font-family: Merriweather;
+    
+    color: #FFF;
+}
+
+.banner-text h4 {
+    padding-top: 177px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.banner-text h1 {
+    width: 632px;
+    margin: auto;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 70px;
+}
