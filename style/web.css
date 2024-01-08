@@ -123,9 +123,12 @@
     line-height: 30px;
     margin: 15px 0px;
 }
-.location-section{
+
+/* location-section */
+.location-section {
     margin-top: 120px;
 }
+
 .location {
     width: 1320px;
     height: 482px;
@@ -140,7 +143,7 @@
     width: 600px;
     height: 200px;
     align-items: center;
-    margin: 100px 385px;  
+    margin: 100px 385px;
     font-family: sans-serif;
 }
 
@@ -177,4 +180,131 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+/* holiday-section */
+.holiday-section {
+    margin-top: 120px;
+}
+
+.holiday-banner-text {
+    margin: auto;
+    width: 1068px;
+}
+
+.holiday-banner-text span {
+    color: #F00;
+    text-align: center;
+}
+
+.holiday-banner-text h4 {
+    color: #070211;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.holiday-banner-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 8px 0 12px 0;
+}
+
+.holiday-banner-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin: auto;
+}
+
+.holiday-banner {
+    width: 1320px;
+    margin: auto;
+}
+
+.banner-images {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.gift-box {
+    width: 620px;
+    height: 100%;
+    margin-bottom: -160px;
+    margin-left: 100px;
+    z-index: 20;
+}
+
+.discount-image {
+    width: 20%;
+    height: 30%;
+    margin-right: -160px;
+    margin-bottom: 60px;
+    z-index: 0;
+}
+
+.banner-girl {
+    width: 429px;
+    height: 433px;
+}
+
+/* product section */
+.product-section {
+    width: 1320px;
+    margin: auto;
+}
+
+.product-section-text {
+    text-align: start;
+
+}
+
+.product-section-text h4 {
+    color: #F00;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 120px 0 0 0;
+}
+
+.product-section-text h1 {
+    color: #070211;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.product-section-text p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0;
+}
+
+.product-section-images {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3,1fr);
 }
