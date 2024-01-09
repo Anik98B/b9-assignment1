@@ -1,8 +1,9 @@
-body{
-    width: 100%;
+body {
+    width: 1600px;
     height: 100vh;
     margin: auto;
 }
+
 /* <!-- banner section --> */
 .banner {
     margin: auto;
@@ -54,14 +55,14 @@ body{
     color: #F00;
     font-size: 88px;
     font-weight: 700;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
 }
 
 .header-text h6 {
     color: #F00;
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: -10px;
+    margin-bottom: 5px;
 }
 
 .header-text h3 {
@@ -129,6 +130,21 @@ body{
     margin: 15px 0px;
 }
 
+.join-button {
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    margin: 48px 0 0 32px;
+    cursor: pointer;
+}
+
 /* location-section */
 .location-section {
     margin-top: 120px;
@@ -187,9 +203,100 @@ body{
     gap: 10px;
 }
 
+/* Bonus-section */
+.bonus-section {
+    width: 1320px;
+    height: 463px;
+    margin: auto;
+}
+
+.bonus-head {
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bonus-title {
+    width: 393px;
+    text-align: left;
+}
+
+.bonus-title h6 {
+    color: #F00;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.bonus-title h1 {
+    color: #070211;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 12px 0;
+}
+
+.bonus-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+}
+
+.bonus-image {
+    border: 15px solid red;
+    border-radius: 100%;
+    margin: 80px 50px 0 10px;
+
+}
+
+.bonus-image img {
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+}
+
+.happy-new-year {
+    width: 240px;
+    text-align: start;
+}
+
+.happy-new-year h1 {
+    color: #F00;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.happy-new-year p {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+
+
+
 /* holiday-section */
 .holiday-section {
-    margin-top: 120px;
+    margin-top: 180px;
 }
 
 .holiday-banner-text {
